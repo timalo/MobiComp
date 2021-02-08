@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MobCompApp</string>
+    <string name="username">Enter username</string>
+    <string name="Password">Enter password</string>
+    <string name="register">New User</string>
+    <string name="login">Log in</string>
+    <string name="welcomepageText">Welcome to Reminder!</string>
+    <string name="logout">Log Out</string>
+    <string name="myReminders">Your reminders:</string>
+    <string name="newReminderBtn">New Reminder</string>
+    <string name="ExampleUsername">asd</string>
+    <string name="ExamplePassword">1234</string>
+
+</resources>
