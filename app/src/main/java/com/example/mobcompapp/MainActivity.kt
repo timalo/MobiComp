@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                 val toast = Toast.makeText(applicationContext, text, Toast.LENGTH_SHORT)
                 toast.show()
             }
-            //applicationContext.getSharedPreferences(getString(R.string.sharedPreference),Context.MODE_PRIVATE).edit().putInt("logInStatus",1).apply()
         }
     }
 }
