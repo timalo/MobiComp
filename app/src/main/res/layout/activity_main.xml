@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@color/appDarkBG"
     tools:context=".MainActivity">
 
     <Button
@@ -42,7 +42,6 @@
         android:gravity="center"
         android:hint="@string/username"
         android:inputType="textPersonName"
-        android:text="@string/username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +58,6 @@
         android:gravity="center"
         android:hint="@string/Password"
         android:inputType="textPassword"
-        android:text="@string/Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"

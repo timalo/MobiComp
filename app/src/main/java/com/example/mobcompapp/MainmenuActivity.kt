@@ -12,21 +12,20 @@ class MainmenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mainmenu)
 
-        val listView = findViewById<ListView>(R.id.listView)
-        val reminderLista = listOf("Reminder1", "Reminder2", "Reminder3", "Reminder4")
+        var listView : ListView = findViewById<ListView>(R.id.listView)
 
-        val arrayAdapter: ArrayAdapter<String> = ArrayAdapter(
-            this, android.R.layout.simple_list_item_1, reminderLista
-        )
 
+
+/*
         listView.adapter = arrayAdapter
 
         findViewById<Button>(R.id.logOutButton).setOnClickListener {
             startActivity(Intent(applicationContext, MainActivity::class.java))
+            finish()
         }
+
+        findViewById<Button>(R.id.newReminderBtn).setOnClickListener {
+            startActivity(Intent(applicationContext, Newreminder::class.java))
+        }*/
     }
-
-
-
-
 }

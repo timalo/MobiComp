@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobCompApp">
-        <activity android:name=".MainmenuActivity"></activity>
-        <activity android:name=".Mainmenu_Activity" />
+        <activity android:name=".reminderItem"></activity>
+        <activity android:name=".Newreminder" />
+        <activity android:name=".MainmenuActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

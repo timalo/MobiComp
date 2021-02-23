@@ -1,4 +1,5 @@
 <resources>
+    <!--Main Screen + mainmenu texts-->
     <string name="app_name">MobCompApp</string>
     <string name="username">Enter username</string>
     <string name="Password">Enter password</string>
@@ -8,7 +9,22 @@
     <string name="logout">Log Out</string>
     <string name="myReminders">Your reminders:</string>
     <string name="newReminderBtn">New Reminder</string>
+
+    <!--placeholder un/pw-->
     <string name="ExampleUsername">asd</string>
     <string name="ExamplePassword">1234</string>
+
+    <!--loginStatus, 1= logged in, 0 = logged out -->
+
+    <!--newReminderWindowTexts-->
+    <string name="newRemindertxt">New reminder</string>
+    <string name="newReminderName">Reminder name:</string>
+    <string name="newReminderDate">Reminder date:</string>
+    <string name="newReminderTime">Reminder time:</string>
+    <string name="newReminderDateHint">dd.mm.yyyy</string>
+    <string name="newReminderHours">Hour:</string>
+    <string name="newReminderMinute">Minute:</string>
+    <string name="newReminderAcceptBtn">Accept</string>
+
 
 </resources>
