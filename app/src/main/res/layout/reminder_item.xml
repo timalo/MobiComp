@@ -46,12 +46,12 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/txtPaymentAmount"
+        android:id="@+id/txtReminderTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="18sp"
-        android:text="hh.mm" />
+        android:text="hh:mm" />
 
     <View
         android:id="@+id/divider"
