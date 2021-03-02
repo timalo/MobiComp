@@ -39,14 +39,14 @@
         android:id="@+id/textView4"
         android:layout_width="204dp"
         android:layout_height="23dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
         android:text="New reminder name:"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView5"
@@ -100,58 +100,17 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="74dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="117dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
         android:background="@color/white"
         android:ems="10"
-        android:hint="hh"
+        android:hint="hh:mm"
         android:inputType="number"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="80dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint="mm"
-        android:inputType="number"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName4"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/newReminderHours"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/newReminderMinute"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
@@ -170,51 +129,12 @@
         android:id="@+id/deleteButton"
         android:layout_width="122dp"
         android:layout_height="60dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
-        android:layout_marginTop="576dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="444dp"
         android:text="Delete reminder"
         app:backgroundTint="@color/appRed"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="248dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="14dp"
-        android:text="TextView"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="245dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="12dp"
-        android:text="TextView"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="246dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="12dp"
-        android:text="TextView"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,4 +17,7 @@ interface ReminderDao {
 
     @Query("SELECT * FROM reminderInfo")
     fun getPaymentInfos(): List<ReminderInfo>
+
+    @Query("SELECT * FROM reminderInfo WHERE date < :currDate OR (date = :currDate AND time < :currTime)")
+    fun getPastReminderInfos(currDate: String, currTime: String): List<ReminderInfo>
 }

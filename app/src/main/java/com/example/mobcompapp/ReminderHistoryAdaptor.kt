@@ -19,8 +19,7 @@ class ReminderHistoryAdaptor(context: Context, private  val list:List<ReminderIn
 
         row.txtReminderName.text=list[position].title
         row.txtReminderDate.text=list[position].date
-        row.txtReminderTime.text=list[position].hours + ":" + list[position].minutes
-
+        row.txtReminderTime.text=list[position].time
         return row
     }
     override fun getItem(position: Int): Any {
